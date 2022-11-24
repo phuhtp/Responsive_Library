@@ -1,0 +1,45 @@
+<!--  
+    Column: .col
+    Vai trò: chứa các thành phần trên website
+    prefix class: class tiền tố
+        - c - column - Mobile
+        - m - medium - Tablet
+        - l - large - PC
+-->
+
+vd:
+<div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <div class="course-item">
+                        <h1 > Course 1</h1>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-6">
+                    <div class="course-item">
+                        <h1 > Course 2</h1>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-6">
+                    <div class="course-item">
+                        <h1 > Course 3</h1>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-6">
+                    <div class="course-item">
+                        <h1 > Course 4</h1>
+                    </div>
+                </div>
+            </div>
+</div>
+
+l-3 -> 12/4 = 3 -> l-3 -> l = pc => trên pc muốn hiện 4 sản phẩm - 4 cột trên 1 hàng (lấy 12/4 = 3) => l-3
+
+m-4 -> 12/3 = 4 -> m-4 -> m = tablet => trên tablet muốn hiện 3 sản phẩm - 3 cột trên 1 hàng (lấy 12/3 = 4) => m-4
+    tương tự m-6 -> hiển thị 2 item trên 1 row => m-6
+
+c-4 -> 12/3 = 4 -> c-4 -> c = mobile => trên mobile muốn hiện 2 sản phẩm - 2 cột trên 1 hàng (lấy 12/2 = 6) => m-6
+
